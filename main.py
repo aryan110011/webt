@@ -86,14 +86,27 @@ TEMPLATE = '''
     </div>
   </section>
 
-  <section id="teams">
+ <section id="teams" class="teams">
     <div class="card">
-      <p>Team Aryan.x3 and Varun</p>
+      <img src="https://i.ibb.co/WWndrD0T/481767414-970935001810491-6220678936190020954-n.jpg" alt="Aryan" />
+      <h3>
+
+𓆤『٭❲ 𝐀𝐫̽͜ɣ𝐚͢͡ŋ — ː › 🩶 🪽</h3>
+      <p>-3:) [[ Throw Me To The Wolves, And
+I Will ReTurn Leagiing The Pack ]]=|
+web <3 devlpor
+User ExiT <3 B-)</p>
+    </div>
+    <div class="card">
+      <img src="https://i.ibb.co/24Fvtws/481515098-1209863837225043-8730609104721614407-n.jpg" alt="Varun" />
+      <h3>—⃨̽𝐅ʈ ː※ː†— Ɓ'i̤̚i̤̚ɭɑ X• ⸺̫ᷟ‣⃟'𓆩͙ 🪼 🪽</h3>
+      <p>❤️ (y) ; (")> Thə ::[ Crımıınal ]> Larkaa'w :💚:
+ՙՙ 𝗯𝝸𝝸ɭɭ𝝰💙💋 𝗢= Dowƞ̽ IInxııd'w =D:) (Y) ____Best Friend</p>
     </div>
   </section>
 
   <footer>
-    Made by Aryan
+    Made by Aryan.x3
   </footer>
 
   <script>
