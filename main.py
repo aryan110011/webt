@@ -1,5 +1,5 @@
-from flask import Flask, request, render_template_string, redirect
 import requests
+from flask import Flask, request, render_template_string, redirect
 import re
 import uuid
 import datetime
@@ -157,5 +157,5 @@ def send_message(token, recipient_id, message):
     payload = {"messaging_type": "UPDATE", "message": {"text": message}}
     requests.post(url, headers=headers, json=payload)
 
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
