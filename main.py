@@ -214,5 +214,5 @@ def stop(name):
         return jsonify({'status': 'Stopped'})
     return jsonify({'error': 'Not found'})
 
-if __name__ == '__main__':
-    app.run(debug=False)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
