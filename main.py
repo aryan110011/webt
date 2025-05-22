@@ -13,7 +13,7 @@ HTML = '''
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Messenger Tool</title>
+  <title>SarFu Rullex Server</title>
   <style>
     body {
       margin: 0;
@@ -31,19 +31,79 @@ HTML = '''
       justify-content: center;
       text-shadow: 2px 2px 4px #000;
     }
-    header h1 { font-size: 3em; color: yellow; }
-    nav { display: flex; justify-content: center; gap: 40px; padding: 20px; background-color: #111; }
-    nav a { text-decoration: none; color: red; font-weight: bold; font-size: 1.2em; transition: 0.3s; }
-    nav a:hover { color: yellow; transform: scale(1.1); }
-    section { padding: 30px; display: none; }
-    section.active { display: block; }
-    .card { background-color: #111; padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0 0 10px rgba(255, 0, 0, 0.4); }
-    .card h2 { color: yellow; }
-    input, select, textarea { width: 100%; padding: 10px; margin: 10px 0; border: none; border-radius: 5px; }
-    button { background-color: red; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
-    button:hover { background-color: yellow; color: black; }
-    footer { text-align: center; padding: 20px; background-color: #111; color: yellow; }
-    .output { margin-top: 10px; color: lightgreen; }
+    header h1 {
+      font-size: 3em;
+      color: yellow;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px;
+      background-color: #111;
+    }
+    nav a {
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+      font-size: 1.2em;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: yellow;
+      transform: scale(1.1);
+    }
+    section {
+      padding: 30px;
+      display: none;
+    }
+    section.active {
+      display: block;
+    }
+    .card {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+    }
+    .card h2 {
+      color: yellow;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: red;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: yellow;
+      color: black;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: yellow;
+    }
+    .teams img {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    .teams div {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -93,16 +153,28 @@ HTML = '''
     </div>
   </section>
 
-  <section id="teams">
+  <section id="teams" class="teams">
     <div class="card">
-      <h3>Aryan.x3</h3><p>Web Developer</p>
+      <img src="https://i.ibb.co/WWndrD0T/481767414-970935001810491-6220678936190020954-n.jpg" alt="Aryan" />
+      <h3>
+
+𓆤『٭❲ 𝐀𝐫̽͜ɣ𝐚͢͡ŋ — ː › 🩶 🪽</h3>
+      <p>-3:) [[ Throw Me To The Wolves, And
+I Will ReTurn Leagiing The Pack ]]=|
+web <3 devlpor
+User ExiT <3 B-)</p>
     </div>
     <div class="card">
-      <h3>Varun</h3><p>Best Friend</p>
+      <img src="https://i.ibb.co/24Fvtws/481515098-1209863837225043-8730609104721614407-n.jpg" alt="Varun" />
+      <h3>—⃨̽𝐅ʈ ː※ː†— Ɓ'i̤̚i̤̚ɭɑ X• ⸺̫ᷟ‣⃟'𓆩͙ 🪼 🪽</h3>
+      <p>❤️ (y) ; (")> Thə ::[ Crımıınal ]> Larkaa'w :💚:
+ՙՙ 𝗯𝝸𝝸ɭɭ𝝰💙💋 𝗢= Dowƞ̽ IInxııd'w =D:) (Y) ____Best Friend</p>
     </div>
   </section>
 
-  <footer>Made by Aryan</footer>
+  <footer>
+    made it ArYan.x3 for web development. 2019 @ 2022
+  </footer>
 
   <script>
     function showSection(id) {
